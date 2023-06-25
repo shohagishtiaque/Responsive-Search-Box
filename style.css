@@ -43,6 +43,10 @@ body{
     padding-left: 20px;
     font-size: 18px;
 }
+#check:checked ~ .search-box input{
+    border-radius: 25px 0 0px 25px;
+    width: 85%;
+}
 .search-box .icon{
     position: absolute;
     right: -2px;
